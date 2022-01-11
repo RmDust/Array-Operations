@@ -10,7 +10,7 @@
 ![Students are object](https://img.shields.io/badge/Object-Students-lightgreen)
   
 ## Instruction  
-Prime Numbers in C Language Teaching.  
+Array-Operations in C Language Teaching.  
 
 - Impotant  
   + **need for some students, eazy-code goto -> Release -> 1.0.0 please.**  
@@ -19,28 +19,20 @@ Prime Numbers in C Language Teaching.
 ### Interface  
 |Interface                       |Return |Tips                 |
 |:---                            |:---   |                 ---:|
-|IsPrimeNumber(Number)           |bool   |IsPrimeNumber(2)     |
-|GetPrimeNumber(Index, ToIndex)  |int*   |GetPrimeNumber(2,7)  |
-|CountPrimeNumber(Index, ToIndex)|int    |CountPrimeNumber(0,1)|
-|WherePrimeNumber(Number)        |int    |WherePrimeNumber(7)  |
+
 
 ```C
 /* Files
  *   Main.c
- *   PrimeNumber.c
- *   PrimeNumber.h
+ *   Array-Operations.c
+ *   Array-Operations.h
  */
 
 #include <stdio.h>
-#include "PrimeNumber.h"
+#include "Array-Operations.h"
 
 int main(void) {
 
-        // Output "1".
-        printf("%d", IsPrimeNumber(2));
-        
-        // Output "7".
-        printf("%d", GetPrimeNumber(0,10)[3]);
 
         return 0;
 }
